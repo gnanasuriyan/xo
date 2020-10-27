@@ -16,9 +16,9 @@ import (
 
 	"github.com/alexflint/go-arg"
 
-	"github.com/xo/dburl"
 	"github.com/gnanasuriyan/xo/internal"
-	"github.com/xo/xo/models"
+	"github.com/gnanasuriyan/xo/models"
+	"github.com/xo/dburl"
 
 	_ "github.com/xo/xo/loaders"
 	_ "github.com/xo/xoutil"

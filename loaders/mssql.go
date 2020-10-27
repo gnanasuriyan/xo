@@ -1,14 +1,15 @@
 package loaders
 
 import (
+	"github.com/gnanasuriyan/xo/models"
 	"strings"
 
 	_ "github.com/denisenkom/go-mssqldb"
 
 	"github.com/knq/snaker"
 
-	"github.com/xo/xo/internal"
-	"github.com/xo/xo/models"
+	"github.com/gnanasuriyan/xo/internal"
+
 )
 
 func init() {
